@@ -14,7 +14,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   
 }
 function addElementToEndOfArray(array,element) {
-  vae newArray = [...array, element]
+  var newArray = [...array, element]
   return array
 }
 function destructivelyAddElementToEndOfArray(array, element) {
