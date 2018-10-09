@@ -40,10 +40,10 @@ function removeElementFromBeginningOfArray(array) {
   return newArray
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
-  array.slice(0, array.length - 1)
+  array.pop()
   return array
 }
 function removeElementFromEndOfArray(array) {
-  var newArray = array.pop()
+  var newArray = array.slice(0, array.length - 1)
   return newArray
 }
